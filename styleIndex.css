@@ -1,0 +1,124 @@
+*{
+   box-sizing: border-box;
+    margin:0%;
+    padding:0%;
+
+    font-family: 'Poppins', sans-serif;
+
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+body{
+    height: 100vh;
+    background-image: url(backgroundhome.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+    
+.container{
+    
+    
+}
+
+header{
+   display: flex;
+   justify-content: space-between;
+   height: 50px;
+   
+  
+
+  
+
+}   
+#seta {
+    margin: 3px;
+}
+
+#logotipo{
+    
+    display: flex;
+    justify-content:flex-start;
+    width: 200px;
+    font-size: 25px;
+    color: whitesmoke;
+    height: 100%;
+    align-items: center;
+    padding: 25px;
+}
+
+.links{
+    padding: 25px;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    
+}
+
+ul li{
+
+    list-style: none;
+    display: inline-block;
+    width: 180px;
+    height: 100%;
+    color: whitesmoke;
+    font-size: 20px;
+    vertical-align: middle;
+    
+   
+}
+ul li:hover{
+    color: #8120ff;
+    
+    
+}
+
+.ridycl { 
+    background: #4B2182;
+    padding: 5px;
+    border-radius: 12px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+    width: 100%;
+    color: whitesmoke;
+    margin-top: 85px;
+    margin-left: 65px;
+    font-size: 30px;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.palavra {
+    color: #8120ff;
+}
+
+#paragrafo{
+    width: 30%;
+    text-align: center;
+
+}
+
+
+
+
+
